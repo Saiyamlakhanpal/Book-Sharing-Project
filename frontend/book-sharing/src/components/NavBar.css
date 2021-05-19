@@ -90,6 +90,7 @@
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
+      
     }
   
     .nav-menu.active {
@@ -108,7 +109,7 @@
     }
   
     .nav-links:hover {
-      background-color: #fff;
+      background-color:#fff;
       color: #242424;
       border-radius: 0;
     }
@@ -131,7 +132,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: black;
       font-size: 2rem;
     }
   
@@ -144,7 +145,7 @@
       text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
-      color: #fff;
+      color: white;
       padding: 14px 20px;
       border: 1px solid #fff;
       transition: all 0.3s ease-out;

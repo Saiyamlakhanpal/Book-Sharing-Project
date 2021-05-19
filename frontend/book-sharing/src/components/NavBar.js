@@ -36,17 +36,17 @@ function NavBar() {
                 <ul className={ click ? 'nav-menu active' : 'nav-menu'}>
                    
                     <li>
-                    <Link to="/availableBooks" className="nav-links" onClick={closedMobileMenu}>
+                    <Link to="/Find" className="nav-links" onClick={closedMobileMenu}>
                             Find a Book
                     </Link>
                     </li>
                     <li>
-                    <Link to="/Fines" className="nav-links" onClick={closedMobileMenu}>
+                    <Link to="/Delay" className="nav-links" onClick={closedMobileMenu}>
                             It's a delay!
                     </Link>
                     </li>
                     <li>
-                    <Link to="/RegisterBook" className="nav-links" onClick={closedMobileMenu}>
+                    <Link to="/registerBook" className="nav-links" onClick={closedMobileMenu}>
                             Register a new book
                     </Link>
                     </li>

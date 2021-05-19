@@ -2,10 +2,16 @@
 
 .hero-container {
     /*background: url('images/img-home.jpg') center cover/center no-repeat;*/
+    font-family: 'New Tegomin', serif;
+    background-color:#b7fdff ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100%;
     object-fit: contain;
-    background-color: #b7fdff;
+    margin-top: 0px;
 }
 
 .hero-container > h1 {

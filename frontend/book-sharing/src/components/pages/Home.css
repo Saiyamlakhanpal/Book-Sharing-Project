@@ -1,13 +1,7 @@
-.card1 {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-    background-color: #b7fdff;
+h1 {
+    font-size: 30px;
 }
 
-.card2 {
-    float: right;
-    width: 25%;
-    padding: 0 10px;
-    background-color: #b7fdff;
+h2 {
+    font-size:20px;
 }
