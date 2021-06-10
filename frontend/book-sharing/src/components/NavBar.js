@@ -40,11 +40,7 @@ function NavBar() {
                             Find a Book
                     </Link>
                     </li>
-                    <li>
-                    <Link to="/Delay" className="nav-links" onClick={closedMobileMenu}>
-                            It's a delay!
-                    </Link>
-                    </li>
+                    
                     <li>
                     <Link to="/registerBook" className="nav-links" onClick={closedMobileMenu}>
                             Register a new book

@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Home from './components/pages/Home';
-import Delay from './components/pages/Delay';
+
 import registerBook from './components/pages/RegisterBook';
 import Find from './components/pages/Find';
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route path="/" exact component={ Home }/>
-        <Route path="/Delay" component={ Delay }/>
+        
         <Route path="/registerBook" component={ registerBook }></Route>
         <Route path='/Find' component={ Find }></Route>
       </Switch>
